@@ -1,0 +1,156 @@
+
+.home {
+    width: 100%;
+    height: 100%;
+    background: url(../../../assets/img/pantheonflout.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-title {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    background: linear-gradient(90deg, rgba(158,158,161,1) 0%, rgba(192,190,195,1) 19%, rgba(237,230,230,0.6334908963585435) 35%, rgba(248,245,249,0.5676645658263305) 56%);
+    border-radius: 15px;
+    box-shadow: 5px 3px 4px 2px black;
+}
+
+.home img {
+    height: 346px;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.home-text {
+    display: flex;
+    align-items: center;
+    flex-direction:  column;
+    background: linear-gradient(90deg, rgba(158,158,161,1) 0%, rgba(192,190,195,1) 19%, rgba(237,230,230,0.6334908963585435) 35%, rgba(248,245,249,0.5676645658263305) 56%);
+    font-size: 16px;
+    color: black;
+    box-shadow: 5px 3px 4px 2px black;
+    border-radius: 15px;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+
+#home-text-last {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* FLAG SECTION */
+
+.flag-text {
+    font-weight:300;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#arrow {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: blue;
+}
+
+.flag-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.flag-item {
+    padding: 0 2rem;
+}
+
+.flag img:hover {
+    transform: rotate(45deg);
+    transition: 1.5s;
+    max-width: 80px;}
+
+.flag img {
+    width: 60px;
+    height: 50px;
+    border: none;
+    background: none;
+
+}
+
+.home-links {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.home-links li {
+    padding: 0 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .home {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .home-title {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+
+    .flag-list {
+        display: flex;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .home img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .home-text {
+        font-size: 1.5rem;
+        padding: 0 4rem;
+        border-radius: 10px 19px;
+        max-width: 70%;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    #home-text-last {
+      font-size: 1rem;
+    }
+
+    .flag-item {
+        padding: 5rem 1rem;
+    }
+
+    
+    
+}

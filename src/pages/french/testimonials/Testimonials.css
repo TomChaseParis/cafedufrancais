@@ -1,0 +1,73 @@
+.testimonials {
+    padding: 60px 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(../../../assets/img/students.png);
+    background-size: contain;
+}
+
+.testimonials-container {
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+}
+
+.testimonials-cards {
+    background: linear-gradient(90deg, rgba(158,158,161,1) 0%, rgba(192,190,195,1) 19%, rgba(237,230,230,0.6334908963585435) 35%, rgba(248,245,249,0.5676645658263305) 56%);
+    border-radius: 12px;
+    box-shadow: 10px 3px 5px black;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+}
+
+.testimonials-title {
+    text-align: center;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    background: linear-gradient(90deg, rgba(158,158,161,1) 0%, rgba(192,190,195,1) 19%, rgba(237,230,230,0.6334908963585435) 35%, rgba(248,245,249,0.5676645658263305) 56%);
+    border-radius: 15px;
+    box-shadow: 5px 3px 4px 2px black;
+    margin-bottom: 3rem;
+}
+
+
+.testimonials-sign {
+    padding: 2rem 0;
+    font-weight: 600;
+}
+
+.home-links {
+    margin-top: 4rem;
+}
+
+.button-for-french {
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 740px) {
+    .testimonials-container {
+        padding: 2rem 2rem;
+    }
+
+    .testimonials-title {
+      font-size: 1rem;
+      padding: 1rem 0;
+    }
+}
+
+
