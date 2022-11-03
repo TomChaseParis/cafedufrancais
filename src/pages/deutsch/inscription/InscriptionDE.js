@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const InscriptionDE = () => {
 
@@ -13,37 +13,37 @@ const InscriptionDE = () => {
       <div className='inscription-container'>
         <div className='inscription-left'></div>
         <div className='inscription-right'>
-            <h3 className='inscription-title'>Voranmeldungsformular</h3>
-            <p className='inscription-text'>Bitte füllen Sie das unten stehende Kontaktformular aus. Dadurch können wir Ihr Profil, Ihre Bedürfnisse und Ihre Verfügbarkeit besser verstehen und Ihnen ein erstes Treffen anbieten, um frei zu diskutieren und gemeinsam ein Schulungsprogramm zu vereinbaren.</p>
-'
-       <button className='inscription-button' onClick={() => openInscription('https://form.jotform.com/221143145895355')}>
-        FORMULAR
-      </button>
+          <h3 className='inscription-title'>Voranmeldungsformular</h3>
+          <p className='inscription-text'>Bitte füllen Sie das unten stehende Kontaktformular aus. Dadurch können wir Ihr Profil, Ihre Bedürfnisse und Ihre Verfügbarkeit besser verstehen und Ihnen ein erstes Treffen anbieten, um frei zu diskutieren und gemeinsam ein Schulungsprogramm zu vereinbaren.</p>
+          '
+          <button className='inscription-button' onClick={() => openInscription('https://form.jotform.com/221143145895355')}>
+            FORMULAR
+          </button>
         </div>
-        </div>
+      </div>
 
-        <div className='inscription-links'>
-        
+      <div className='inscription-links'>
+
         <div className='home-links-inscription'>
-                  <NavLink to='/lehrer'>
-                      <li>Lehrer</li>
-                  </NavLink>
-                  <NavLink to='/preise'>
-                      <li>Preise</li>
-                  </NavLink>
-                  <NavLink to='/cafes'>
-                      <li>Cafés du français</li>
-                  </NavLink>
-                  <NavLink to='/testimonialsDE'>
-                      <li>Testimonials</li>
-                  </NavLink>
-                  <NavLink to='/Voranmeldungsformular'>
-                      <li>Voranmeldungsformular</li>
-                  </NavLink>
-             
+          <NavLink to='/lehrer'>
+            <li>Lehrer</li>
+          </NavLink>
+          <NavLink to='/preise'>
+            <li>Preise</li>
+          </NavLink>
+          <NavLink to='/cafes'>
+            <li>Cafés du français</li>
+          </NavLink>
+          <NavLink to='/testimonialsDE'>
+            <li>Testimonials</li>
+          </NavLink>
+          <NavLink to='/Voranmeldungsformular'>
+            <li>Voranmeldungsformular</li>
+          </NavLink>
 
-            </div>
-            </div>
+
+        </div>
+      </div>
     </div>
   )
 }

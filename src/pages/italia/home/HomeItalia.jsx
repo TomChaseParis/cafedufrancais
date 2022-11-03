@@ -1,14 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
 import '../../french/home/Home.css'
-
 import Header from '../../../assets/img/hero.png'
-
-import GifDeutsch from '../../../assets/img/drapDE.gif'
-import GifFrench from '../../../assets/img/drapFR.gif'
-import GifEnglish from '../../../assets/img/drapEN.gif'
-import GifItalia from '../../../assets/img/drapIA.gif'
 
 const Italia = {
     title: 'AU CAFE DU FRANCAIS',
