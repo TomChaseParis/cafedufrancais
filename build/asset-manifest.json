@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.670e46cd.css",
+    "main.js": "/static/js/main.47db5bd9.js",
+    "static/media/drapEN.gif": "/static/media/drapEN.e142e4c83e63866f3cca.gif",
+    "static/media/drapFR.gif": "/static/media/drapFR.5c9e1cdce5c6a21766f7.gif",
+    "static/media/drapIA.gif": "/static/media/drapIA.528342851dd8c172aed9.gif",
+    "static/media/pantheonflout.png": "/static/media/pantheonflout.6cdae1aacf4fb6c2f6f2.png",
+    "static/media/hero.png": "/static/media/hero.0e1ca894887f8aafa9b2.png",
+    "static/media/drapDE.gif": "/static/media/drapDE.a51b83570006e74ffc6c.gif",
+    "static/media/inscription.png": "/static/media/inscription.8494222f13c6e4628e76.png",
+    "static/media/students.png": "/static/media/students.69465da19d17a4439a9a.png",
+    "static/media/tarifswithout.png": "/static/media/tarifswithout.a297c28171d845005049.png",
+    "static/media/MenuDE.png": "/static/media/MenuDE.09ba935f693c66ff93ae.png",
+    "static/media/MenuIA.png": "/static/media/MenuIA.bcf4df0e742c452629fb.png",
+    "static/media/MenuEN.png": "/static/media/MenuEN.5d444d9ae5104cdb17a7.png",
+    "static/media/profil.webp": "/static/media/profil.dc631d7ac33866a3a09d.webp",
+    "static/media/contrescarpe.webp": "/static/media/contrescarpe.324d55e886a8c7f09eaa.webp",
+    "static/media/homeback.jpg": "/static/media/homeback.aeeb5f26ea1d36bde8e8.jpg",
+    "static/media/Logo.jpg": "/static/media/Logo.41976aed220630583820.jpg",
+    "static/media/chezpaul.webp": "/static/media/chezpaul.fe2a182146e6645d3141.webp",
+    "static/media/cafema.webp": "/static/media/cafema.4a6ab3a7cd7a0b1ea945.webp",
+    "static/media/nuagescafe.webp": "/static/media/nuagescafe.cf208d412219e2e1f2c6.webp",
+    "index.html": "/index.html",
+    "main.670e46cd.css.map": "/static/css/main.670e46cd.css.map",
+    "main.47db5bd9.js.map": "/static/js/main.47db5bd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670e46cd.css",
+    "static/js/main.47db5bd9.js"
+  ]
+}
