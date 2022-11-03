@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.670e46cd.css",
-    "main.js": "/static/js/main.47db5bd9.js",
+    "main.js": "/static/js/main.f8837577.js",
     "static/media/drapEN.gif": "/static/media/drapEN.e142e4c83e63866f3cca.gif",
     "static/media/drapFR.gif": "/static/media/drapFR.5c9e1cdce5c6a21766f7.gif",
     "static/media/drapIA.gif": "/static/media/drapIA.528342851dd8c172aed9.gif",
@@ -23,10 +23,10 @@
     "static/media/nuagescafe.webp": "/static/media/nuagescafe.cf208d412219e2e1f2c6.webp",
     "index.html": "/index.html",
     "main.670e46cd.css.map": "/static/css/main.670e46cd.css.map",
-    "main.47db5bd9.js.map": "/static/js/main.47db5bd9.js.map"
+    "main.f8837577.js.map": "/static/js/main.f8837577.js.map"
   },
   "entrypoints": [
     "static/css/main.670e46cd.css",
-    "static/js/main.47db5bd9.js"
+    "static/js/main.f8837577.js"
   ]
 }
