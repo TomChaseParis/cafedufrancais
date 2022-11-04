@@ -8,6 +8,7 @@
   height: 45px;
   position: absolute;
   margin-left: -3rem;
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 768px) {

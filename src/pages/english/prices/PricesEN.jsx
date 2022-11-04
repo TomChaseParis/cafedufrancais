@@ -11,7 +11,9 @@ const PricesEN = () => {
         <li><p className='prices-item'>• Course prices are on a <strong>sliding scale</strong> according to the number of lessons you choose to have. </p></li>
         <li><p className='prices-item'>• No payment required before the 3rd lesson. The student only commits to a <strong>5, 10, 15 or 20-lesson contract</strong> if the first two lessons gave him/her entire satisfaction, in which case they will be considered as taken.</p></li>
         <li><p className='prices-item'>• Each and every lesson's duration is <strong>one hour and a half</strong>.</p></li>
-        <img src={Menu} alt="" />
+        <div className='menu-img'>
+            <img src={Menu} alt="" />
+        </div>
         <h2 className='conditions'>Agreement terms and conditions</h2>
         <li>
             <p className='conditions-item'>• French lessons must be completed within a <strong>12-month limit</strong> from the day of the first lesson.</p></li>

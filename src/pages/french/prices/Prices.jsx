@@ -13,7 +13,9 @@ function Prices() {
             <li><p className='prices-item'>• Les tarifs des cours sont <strong>dégressifs</strong> en fonction du nombre de leçons prises.</p></li>
             <li><p className='prices-item'>• L'étudiant(e) n'a rien à régler avant le début de la troisième leçon. Il/Elle ne s'engage sur la signature d'un contrat de <strong>5, 10, 15 ou 20</strong> leçons que si les deux premiers cours lui ont donné <strong>satisfaction</strong>, auquel cas ces deux cours sont considérés comme pris.</p></li>
             <li><p className='prices-item'>• La durée de chaque leçon est d'<strong>une heure trente</strong>.</p></li>
+            <div className='menu-img'>
             <img src={Menu} alt="" />
+            </div>
            
                <h2 className='conditions'>Conditions particulières</h2>
             <li>

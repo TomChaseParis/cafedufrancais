@@ -26,7 +26,8 @@ function Home() {
          <div className="container">
              <h1 className='home-title'>{French.title}</h1> 
             <img className='home-img' src={Header} alt="home" />
-            <p className='home-container' id='first-home-container'>Cours de Français Langue Etrangère à la carte<br/> dans le 5ème arrondissement de Paris.</p>
+            <p className='home-container' id='first-home-container'
+            style={{ marginTop: '2rem' }}>Cours de Français Langue Etrangère à la carte<br/> dans le 5ème arrondissement de Paris.</p>
 
             <div className="flag">
 

@@ -27,7 +27,6 @@
 
 img {
     margin-top: 3rem;
-    margin-bottom: 3rem;
     width: 730px;
     height: 474px;
 }
@@ -35,7 +34,6 @@ img {
 .prices-list {
     margin: 0 auto;
     padding: 2rem 0;
-    margin-bottom: 3rem;
     flex-direction: column;
     list-style: none;
     background: linear-gradient(90deg, rgba(158,158,161,1) 0%, rgba(192,190,195,1) 19%, rgba(237,230,230,0.6334908963585435) 35%, rgba(248,245,249,0.5676645658263305) 56%);
@@ -57,7 +55,6 @@ img {
     font-weight: 400;
     margin: 0 auto;
     max-width: 80%;
-
 }
 
 .conditions {
@@ -78,15 +75,24 @@ img {
     padding: 1rem 0;
   }
 
+  .menu-img {
+    display: flex;
+    justify-content: center;
+  }
+
   .prices img {
     width: 300px;
     height: auto;
-    margin-left: -1.5rem;
   }
 
   .prices-list {
     max-width: 80%;
     padding: 1rem 1rem;
+  }
+
+  .conditions {
+    font-size: 1rem;
+    font-weight: 600;
   }
   
 }

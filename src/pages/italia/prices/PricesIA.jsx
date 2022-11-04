@@ -11,7 +11,9 @@ const PricesIA = () => {
         <li><p className='prices-item'>• Le tariffe dei corsi <strong>diminuiscono</strong> in funzione del numero di lezioni seguite.</p></li>
         <li><p className='prices-item'>• Corsi da <strong> 5, 10, 15 o 20</strong> lezioni; le prime due lezioni sono considerate di prova e solo alla fine della seconda lezione lo studente, se <strong>soddisfatto</strong>, potrà sottoscrivere un contratto da 5, 10, 15 o 20 lezioni ; le due lezioni di prova in questo caso saranno decurtate da quelle previste nel pacchetto scelto. Nel caso in cui lo studente non sia soddisfatto non sarà tenuto al pagamento delle prime due lezioni.</p></li>
         <li><p className='prices-item'>• La durata di ogni lezione è di <strong>un'ora e mezzo</strong>.</p></li>
-        <img src={Menu} alt="" />
+        <div className='menu-img'>
+            <img src={Menu} alt="" />
+        </div>
         <h2 className='conditions'>Condizioni particolari</h2>
         <li>
             <p className='conditions-item'>• Le lezioni di francese devono essere prese entro <strong>12 mesi</strong> dalla data della prima lezione.</p></li>
