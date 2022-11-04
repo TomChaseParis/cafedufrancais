@@ -59,6 +59,11 @@
       height: auto;
     }
 
+    .teacher-container {
+      margin-top: 1rem;
+      max-width: 80%;
+    }
+
     .teacher h2 {
       margin-top: 2rem;
     }
@@ -76,6 +81,7 @@
     }
 
     .teacher-list {
+      font-size: 1rem;
       padding: 1rem 2rem;
       text-align: left;
       margin: 0;

@@ -13,12 +13,16 @@ function HomeItalia() {
     <div className="container">
        <p className='home-title'>{Italia.title}</p>
        <img src={Header} alt="home" />
-       <p className='home-text'><strong>Corsi individuali di francese per stranieri nel quinto arrondissement di Parigi </strong>
-       <p id='home-text-last'>
+
+       <div className='home-container'>
+        <p className='home-text'><strong>Corsi individuali di francese per stranieri nel quinto arrondissement di Parigi </strong></p>
+        <ul id='home-text-last'>
         <li>Lezioni private di francese generale e focalizzate</li>
         <li>Preparazione all’esame DALF/DELF e TCF</li>
         <li>Lezioni di francese in piccoli gruppi (su richiesta) </li>
-        </p></p>
+        </ul>
+       </div>
+      
 
 
       

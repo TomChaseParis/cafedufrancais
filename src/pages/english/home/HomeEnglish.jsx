@@ -12,13 +12,16 @@ function HomeEnglish() {
     <div className="container">
        <p className='home-title'>{English.title}</p>
        <img src={Header} alt="home" />
-       <div>
-        <p className='home-text'><strong>Tailor-made French classes in the 5th arrondissement of Paris</strong>
-         <p id='home-text-last'>
+
+
+       <div className='home-container'>
+        <p className='home-text'><strong>Tailor-made French classes in the 5th arrondissement of Paris</strong></p>
+        
+         <ul id='home-text-last'>
                 <li>Private lessons - General & Speciality French courses </li>
                 <li> DELF/DALF and TCF preparation</li>
                 <li>Mini-group French classes (on demand)</li>
-            </p></p>
+            </ul>
        </div>
        
        <p className="flag-text">{English.lng}</p>

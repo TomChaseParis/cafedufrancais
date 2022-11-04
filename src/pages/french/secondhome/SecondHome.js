@@ -16,19 +16,17 @@ function SecondHome() {
         <p className='home-title'>{French.title}</p>
         <img src={Header} alt="home" />
 
-        <div>
-          <p className='home-text'><strong>Leçons de Français Langue Etrangère à la carte<br /> dans le 5ème arrondissement de Paris</strong>
-            <p id='home-text-last'>
-              <li>Cours particuliers de français général et de spécialité </li>
-              <li>Préparation aux examens de français DELF/DALF/TCF</li>
-              <li>Classes de français en petits groupes sur demande</li>
-            </p></p>
+        <div className='home-container'>
+          <p className='home-text'><strong>Leçons de Français Langue Etrangère à la carte<br /> dans le 5ème arrondissement de Paris</strong></p>
+          <ul id='home-text-last'>
+            <li>Cours particuliers de français général et de spécialité </li>
+            <li>Préparation aux examens de français DELF/DALF/TCF</li>
+            <li>Classes de français en petits groupes sur demande</li>
+          </ul>
         </div>
 
 
         <div className="flag">
-
-
           <div className='home-links'>
             <NavLink to='/professeur'>
               <li>Professeur</li>

@@ -14,12 +14,16 @@ function HomeDeutsch() {
     <div className="container">
        <p className='home-title'>{Deutsch.title}</p>
        <img src={Header} alt="home" />
-       <p className='home-text'><strong>Massgeschneiderte Französischkurse im 5. Arrondissement von Paris </strong>
-         <p id='home-text-last'>
+
+       <div className='home-container'>
+         <p className='home-text'><strong>Massgeschneiderte Französischkurse im 5. Arrondissement von Paris </strong></p>
+         <ul id='home-text-last'>
           <li>Allgmeines & Spezialisiertes Französisch Privatstunden</li>
           <li>DELF/DALF und TCF-Vorbereitung</li>
           <li>Französischunterricht in kleinen Gruppen (auf Antrag)</li>
-          </p></p>
+          </ul>
+       </div>
+      
     
 
       
