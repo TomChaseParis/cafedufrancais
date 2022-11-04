@@ -14,7 +14,6 @@
 .prices-title {
     margin-top: 3rem;
     text-align: center;
-    text-align: center;
     padding: 2rem 0;
     font-size: 2rem;
     text-align: center;
@@ -97,5 +96,9 @@ img {
   
 }
 
-
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+  .home-links  li {
+   font-size: 1rem;
+  }
+}
 

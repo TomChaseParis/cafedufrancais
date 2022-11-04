@@ -119,8 +119,12 @@
     padding: 0.5rem 0;
   }
 
+}
 
-
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .home-links-inscription li {
+     font-size: 1rem;
+    }
 }
 
 

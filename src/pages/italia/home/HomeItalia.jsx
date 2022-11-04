@@ -24,8 +24,6 @@ function HomeItalia() {
        </div>
       
 
-
-      
             <div className='home-links'>
                   <NavLink to='/professore'>
                       <li>Professore</li>
