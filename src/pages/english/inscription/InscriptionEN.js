@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import InscriptionImg from '../../../assets/img/inscription.png'
 
 const InscriptionEN = () => {
 
@@ -14,6 +15,7 @@ const InscriptionEN = () => {
         <div className='inscription-left'></div>
         <div className='inscription-right'>
           <h3 className='inscription-title'>PRE-BOOKING FORM</h3>
+          <img className='inscription-img' src={InscriptionImg} alt={InscriptionImg} />
           <p className='inscription-text'>Thank you to fill in the form below. It will allow us to better know your profile, specific needs and availabilities before a first meet.</p>
 
           <button className='inscription-button' onClick={() => openInscription('https://form.jotform.com/220972073962359')}>

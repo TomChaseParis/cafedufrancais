@@ -38,7 +38,7 @@ function Coffe() {
         <NavLink to='/Temoignages'>
           <li>Temoignages</li>
         </NavLink>
-        <NavLink to='/'>
+        <NavLink to='/preinscription'>
           <li>Formulaire de pré-inscription</li>
         </NavLink>
 

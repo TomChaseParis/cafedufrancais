@@ -6,7 +6,7 @@ import '../home/Home.css'
 function SecondHome() {
 
   const French = {
-    title: 'Au Café du Français',
+    title: 'AU CAFE DU FRANCAIS',
   }
 
   return (

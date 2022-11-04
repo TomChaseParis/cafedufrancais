@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.inscription-img {
+  display: none;
+}
+
 .inscription-left {
     background: url(../../../assets/img/inscription.png);
     background-size: cover;
@@ -83,6 +87,13 @@
     flex-direction: column;
   }
 
+  .inscription-img {
+    display: flex;
+   position: absolute;
+    width: 300px;
+    height: 150px;
+  }
+
   .inscription-left, .inscription-right {
     display: flex;
     width: 100%;
@@ -100,6 +111,7 @@
 
   .inscription-text {
    max-width: 70%;
+   margin-top: 6rem;
   }
 
   .home-links-inscription li {

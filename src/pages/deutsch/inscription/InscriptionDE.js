@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import InscriptionImg from '../../../assets/img/inscription.png'
+
 
 const InscriptionDE = () => {
 
@@ -14,6 +16,7 @@ const InscriptionDE = () => {
         <div className='inscription-left'></div>
         <div className='inscription-right'>
           <h3 className='inscription-title'>Voranmeldungsformular</h3>
+          <img className='inscription-img' src={InscriptionImg} alt={InscriptionImg} />
           <p className='inscription-text'>Bitte füllen Sie das unten stehende Kontaktformular aus. Dadurch können wir Ihr Profil, Ihre Bedürfnisse und Ihre Verfügbarkeit besser verstehen und Ihnen ein erstes Treffen anbieten, um frei zu diskutieren und gemeinsam ein Schulungsprogramm zu vereinbaren.</p>
           '
           <button className='inscription-button' onClick={() => openInscription('https://form.jotform.com/221143145895355')}>

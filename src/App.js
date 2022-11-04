@@ -49,63 +49,61 @@ import SecondHome from './pages/french/secondhome/SecondHome';
 function App() {
   return (
     <>
-    <BrowserRouter>
-     <DropDown />
-     
-     <Routes>
+      <BrowserRouter>
+        <DropDown />
 
-      {/* HOME PAGES */}
-      <Route path='/' element={ <Home />} />
-      <Route path ='/home' element={<SecondHome />} />
-      <Route path='/contact' element={<Contact />} />   
-      <Route path='/english' element={<HomeEnglish />} />  
-      <Route path='/deutsch' element={<HomeDeutsch />} />
-      <Route path='/italia' element={<HomeItalia />} /> 
+        <Routes>
 
-      {/* TEACHER PAGES */}
-      <Route path='/professeur' element={<Teacher />} />
-      <Route path='/teacher' element={<TeacherEN />} />
-      <Route path='/lehrer' element={<TeacherDE />} />
-      <Route path='/professore' element={<TeacherIA />} />
+          {/* HOME PAGES */}
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<SecondHome />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/english' element={<HomeEnglish />} />
+          <Route path='/deutsch' element={<HomeDeutsch />} />
+          <Route path='/italia' element={<HomeItalia />} />
 
-      {/* PLACE PAGES */ }
-      <Route path='/cafes' element={<Coffe />} />
-      <Route path='/places' element={<CoffeEnglish />} />
-      <Route path='/cafesdufrancais' element={<CoffeDeutsch />} />
-      <Route path='/cafesfrancais' element={<CoffesItalia />} />
+          {/* TEACHER PAGES */}
+          <Route path='/professeur' element={<Teacher />} />
+          <Route path='/teacher' element={<TeacherEN />} />
+          <Route path='/lehrer' element={<TeacherDE />} />
+          <Route path='/professore' element={<TeacherIA />} />
 
-      {/* TESTIMONIALS PAGES */}
-      <Route path='/temoignages' element={<Testimonials/>} />
-      <Route path='/studentsreview' element={<StudentsReview />} />
-      <Route path='/testimonialsDE' element={<TestimonialsDe />} />
-      <Route path='/testimonialsIA' element={<TestimonialsIA />} />
+          {/* PLACE PAGES */}
+          <Route path='/cafes' element={<Coffe />} />
+          <Route path='/places' element={<CoffeEnglish />} />
+          <Route path='/cafesdufrancais' element={<CoffeDeutsch />} />
+          <Route path='/cafesfrancais' element={<CoffesItalia />} />
 
-      {/* TARIFS PAGES */}
-      <Route path='/tarifs' element={<Prices />} />
-      <Route path='/prices' element={<PricesEN />} />
-      <Route path='/preise' element={<PricesDE />} />
-      <Route path='/tariffe' element={<PricesIA />} />
+          {/* TESTIMONIALS PAGES */}
+          <Route path='/temoignages' element={<Testimonials />} />
+          <Route path='/studentsreview' element={<StudentsReview />} />
+          <Route path='/testimonialsDE' element={<TestimonialsDe />} />
+          <Route path='/testimonialsIA' element={<TestimonialsIA />} />
 
-      {/* CONTACT PAGES */}
-      <Route path='/contact' element={<Contact />} />
+          {/* TARIFS PAGES */}
+          <Route path='/tarifs' element={<Prices />} />
+          <Route path='/prices' element={<PricesEN />} />
+          <Route path='/preise' element={<PricesDE />} />
+          <Route path='/tariffe' element={<PricesIA />} />
 
-      {/* INSCRIPTION PAGES */}
-      <Route path='/preinscription' element={<Inscription />} />
-      <Route path='/prebookingform' element={<InscriptionEN />} />
-      <Route path='/voranmeldung' element={<InscriptionDE />} />
-      <Route path='/preiscrizione' element={<InscriptionIA />} />
+          {/* CONTACT PAGES */}
+          <Route path='/contact' element={<Contact />} />
 
+          {/* INSCRIPTION PAGES */}
+          <Route path='/preinscription' element={<Inscription />} />
+          <Route path='/prebookingform' element={<InscriptionEN />} />
+          <Route path='/voranmeldung' element={<InscriptionDE />} />
+          <Route path='/preiscrizione' element={<InscriptionIA />} />
 
+        </Routes>
+        <Footer />
+      </BrowserRouter>
 
-     </Routes>
-     <Footer />
-    </BrowserRouter>
-    
     </>
 
-         
-         
-       
+
+
+
   );
 }
 
