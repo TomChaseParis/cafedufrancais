@@ -16,6 +16,7 @@ const CoffesItalia = () => {
               text={value.text}
               coffe={value.coffe}
               adress={value.adress}
+              linkUrl={value.linkUrl}
             />
           )
         })}

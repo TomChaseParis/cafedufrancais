@@ -6,7 +6,6 @@ import CoffeData from './CoffeData';
 
 function Coffe() {
 
-
   return (
     <div className='coffe'>
       <h1 className='coffe-title'>Les Cafés de Paris où nous aimons donner nos leçons de français...</h1>

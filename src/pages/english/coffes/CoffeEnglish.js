@@ -4,7 +4,7 @@ import CoffeDataEnglish from './CoffeDataEnglish';
 import { NavLink } from 'react-router-dom';
 
 
-const CoffeEnglish = (props) => {
+const CoffeEnglish = () => {
   return (
     <div className='coffe'>
     <h1 className='coffe-title'>Parisian cafés where we like to sit down for our French lessons...
@@ -19,6 +19,7 @@ const CoffeEnglish = (props) => {
                     text={value.text}
                     coffe={value.coffe}
                     adress={value.adress}
+                    linkUrl={value.linkUrl}
                     />
                 )
             })}

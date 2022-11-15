@@ -9,28 +9,32 @@ const CoffeDataItalia = [
       title: "La Contrescarpe",
       text: "Un caffè emblematico nel quartiere Mouffetard, affacciato su Place de la Contrescarpe. Terrazza riscaldata, atmosfera accogliente d'inverno come d'estate, luogo essenziale per le nostre lezioni di francese.",
       coffe: "La Contrescarpe",
-      adress: "57 rue Lacépède 75005 Paris"
+      adress: "57 rue Lacépède 75005 Paris",
+      linkUrl: "https://www.yelp.com/map/la-contrescarpe-paris"
     },
     {
       img: CafeMa,
       title: "Café Maa",
       text: "Café Maa Atmosfera rilassata, grandi tavoli in legno, una caffetteria accanto all'Istituto Finlandese, a due passi dalla Sorbona e dal Museo Medievale di Cluny.",
       coffe: " Café Maa - Institut finlandais",
-      adress: "60 rue des Ecoles 75005 Paris"
+      adress: "60 rue des Ecoles 75005 Paris",
+      linkUrl: "https://www.yelp.com/map/coutume-institut-paris"
     },
     {
       img: NuagesCafe,
       title: "Nuages Café",
       text: "Un cafè co-working molto frequentato dagli studenti, con spazi privatizzabili. Ideale per lezioni di francese in piccoli gruppi in tutta tranquillità.",
       coffe: "Nuages Café ",
-      adress: "14 rue des Carmes 75005 Paris"
+      adress: "14 rue des Carmes 75005 Paris",
+      linkUrl: "https://www.yelp.com/map/nuage-caf%C3%A9-paris"
     },
     {
       img: ChezPaul,
       title: "Chez Paul",
       text: "Un piccolo caffè intimo e accogliente, perfetto per una colazione... in francese.",
       coffe: "Chez Paul",
-      adress: "14 boulevard Saint-Michel 75005 Paris"
+      adress: "14 boulevard Saint-Michel 75005 Paris",
+      linkUrl: "https://www.yelp.com/map/paul-paris"
     }
   ];
   

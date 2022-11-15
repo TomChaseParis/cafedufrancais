@@ -88,8 +88,7 @@ const DropDown = () => {
               <NavDropdown.Item href="/testimonialsIA" onClick={<TestimonialsIA />}>Testimonianze degli studenti</NavDropdown.Item>
               <NavDropdown.Item href="/preiscrizione">Pre-iscrizione</NavDropdown.Item>
             </NavDropdown>
-
-
+            
             <Nav.Link href="#" disabled> 
             </Nav.Link>
           </Nav>

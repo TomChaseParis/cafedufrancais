@@ -21,6 +21,7 @@ const CoffeCard = ({ img, title, text, coffe, adress, linkUrl }) => {
         <div className='coffe-list-button'>
           <button className='coffe-button'>Y Aller</button>
         </div>
+
       </div>
     </div>
   )
