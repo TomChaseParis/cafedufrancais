@@ -1,13 +1,13 @@
 .inscription {
-    width: 100%;
-    height: 100%;
-    background: url(../../../assets/img/pantheonflout.png) no-repeat;
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: url(../../../assets/img/pantheonflout.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .inscription-container {
-    display: flex;
+  display: flex;
 }
 
 .inscription-img {
@@ -15,64 +15,68 @@
 }
 
 .inscription-left {
-    background: url(../../../assets/img/inscription.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    height: 100vh;
+  background: url(../../../assets/img/inscription.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100vh;
 }
 
 .inscription-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    background: linear-gradient(90deg, rgba(158,158,161,1) 0%, rgba(192,190,195,1) 19%, rgba(237,230,230,0.6334908963585435) 35%, rgba(248,245,249,0.5676645658263305) 56%);
-    padding: 3rem 1rem;
-    opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(158, 158, 161, 1) 0%,
+    rgba(192, 190, 195, 1) 19%,
+    rgba(237, 230, 230, 0.6334908963585435) 35%,
+    rgba(248, 245, 249, 0.5676645658263305) 56%
+  );
+  padding: 3rem 1rem;
+  opacity: 0.8;
 }
 
 .inscription-title {
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
 .inscription-text {
-    width: 450px;
-    margin: 0 auto;
+  width: 450px;
+  margin: 0 auto;
 }
 
-
 .inscription-button {
-    margin-top: 3rem;
-    padding: 1rem 3rem;
-    background-color: black;
-    color: white;
-    text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 3rem;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .inscription-links {
-    padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .home-links-inscription {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 }
 
 .home-links-inscription li {
-    color: white;
-    padding: 2rem 1rem;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: underline;
-    text-shadow: 1px 1px 2px black;
+  color: white;
+  padding: 2rem 1rem;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px black;
 }
 
 @media screen and (max-width: 768px) {
-
   .inscription {
     display: flex;
     flex-direction: column;
@@ -81,7 +85,7 @@
   .inscription-title {
     font-size: 1rem;
   }
- 
+
   .inscription-container {
     display: flex;
     flex-direction: column;
@@ -89,12 +93,13 @@
 
   .inscription-img {
     display: flex;
-   position: absolute;
+    position: absolute;
     width: 300px;
     height: 150px;
   }
 
-  .inscription-left, .inscription-right {
+  .inscription-left,
+  .inscription-right {
     display: flex;
     width: 100%;
   }
@@ -108,25 +113,36 @@
     flex-direction: column;
   }
 
-
   .inscription-text {
-   max-width: 70%;
-   margin-top: 6rem;
+    max-width: 70%;
+    margin-top: 6rem;
   }
 
   .home-links-inscription li {
     font-size: 15px;
     padding: 0.5rem 0;
   }
-
 }
 
 @media screen and (min-width: 770px) and (max-width: 1200px) {
-    .home-links-inscription li {
-     font-size: 1rem;
-    }
+  .home-links-inscription li {
+    font-size: 1rem;
+  }
 }
 
+/* ANIMATION */
 
-
- 
+.inscription {
+  animation: fadein 3s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari et Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
