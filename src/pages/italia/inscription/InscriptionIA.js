@@ -30,16 +30,16 @@ const InscriptionIA = () => {
       <div className='inscription-links'>
 
         <div className='home-links-inscription'>
-          <NavLink to='/ Professore'>
+          <NavLink to='/Professore'>
             <li> Professore</li>
           </NavLink>
-          <NavLink to='/Tariffe -'>
+          <NavLink to='/Tariffe'>
             <li>Tariffe</li>
           </NavLink>
-          <NavLink to='/cafes'>
+          <NavLink to='/cafesfrancais'>
             <li>Cafés du français</li>
           </NavLink>
-          <NavLink to='/Testimonianze degli studenti'>
+          <NavLink to='/testimonialsIA'>
             <li>Testimonials</li>
           </NavLink>
           <NavLink to='/preiscrizione'>
