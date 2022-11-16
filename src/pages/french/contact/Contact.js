@@ -18,6 +18,11 @@ const Contact = () => {
       }, (error) => {
         console.log(error.text);
       });
+
+      if (sendEmail) {
+        document.location.href='/';
+        alert('Merci, votre message a bien été envoyé, vous serez recontacté dans les meilleurs délais')
+      }
   };
 
   return (
