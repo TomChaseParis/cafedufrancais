@@ -51,7 +51,6 @@ function App() {
     <>
       <BrowserRouter>
         <DropDown />
-
         <Routes>
 
           {/* HOME PAGES */}
@@ -96,6 +95,7 @@ function App() {
           <Route path='/preiscrizione' element={<InscriptionIA />} />
 
         </Routes>
+
         <Footer />
       </BrowserRouter>
 
