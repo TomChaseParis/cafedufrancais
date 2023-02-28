@@ -7,7 +7,6 @@ const Contact = () => {
 
   // EMAIL JS SECTION
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -27,13 +26,6 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-      {/* <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form> */}
 
       <form ref={form} onSubmit={sendEmail} className='form'>
         <h3 className='contact-title'>Au Café du Français</h3>

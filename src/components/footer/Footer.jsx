@@ -1,19 +1,18 @@
-import React from 'react';
+import React from "react"
+import { Link } from "react-router-dom"
 
-import './Footer.css';
+import "./Footer.css"
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div className="footer">
       <div className="footer-container">
-      <ul className="footer-list">
-            <li className="footer-item">Mentions Légales</li>
-            <li className="footer-item">Politique de confidentialité</li>
-            <li className="footer-item">Paramètres des cookies</li>
-            <li className="footer-item" id='sign'>Au Café du Français @ 2022</li>
+        <ul className="footer-list">
+          <Link className="footer-link" to='/mentionslegales'>Mentions Légales</Link>
+          <Link className="footer-link" to='/proprietesintellectuelles'>Propriété intellectuelle et contrefaçons</Link>
+          <p className="footer-link">© Copyright 2023 Au café du français</p>
         </ul>
       </div>
-       
     </div>
   )
 }

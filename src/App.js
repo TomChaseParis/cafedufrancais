@@ -44,6 +44,8 @@ import InscriptionEN from './pages/english/inscription/InscriptionEN';
 import InscriptionDE from './pages/deutsch/inscription/InscriptionDE';
 import InscriptionIA from './pages/italia/inscription/InscriptionIA';
 import SecondHome from './pages/french/secondhome/SecondHome';
+import Mentions from './pages/mentions';
+import Property from './pages/property';
 
 
 function App() {
@@ -93,6 +95,10 @@ function App() {
           <Route path='/prebookingform' element={<InscriptionEN />} />
           <Route path='/voranmeldung' element={<InscriptionDE />} />
           <Route path='/preiscrizione' element={<InscriptionIA />} />
+
+          {/* MENTIONS LEGALES PAGES */}
+          <Route path='/mentionslegales' element={<Mentions />} />
+          <Route path='/proprietesintellectuelles' element={<Property />} />
 
         </Routes>
 
