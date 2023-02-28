@@ -1,5 +1,4 @@
 import React from 'react'
-import DropDown from '../../components/dropdown/DropDown'
 
 import './index.css'
 
